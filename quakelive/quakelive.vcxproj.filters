@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="detours">
+      <UniqueIdentifier>{ad7a4338-9513-4307-ac2f-9a79dff92284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours\Header Files">
+      <UniqueIdentifier>{545006ff-0c9e-4d86-a642-665f29835a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours\Source Files">
+      <UniqueIdentifier>{aba06052-59a8-4f30-aba8-efee61f80dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours_game">
+      <UniqueIdentifier>{8a47ef75-7960-4232-940e-6ab7e761fa15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours_game\Header Files">
+      <UniqueIdentifier>{dc676ea4-cce1-4432-bead-d4b96bdc86fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours_game\Source Files">
+      <UniqueIdentifier>{83c91bb3-ce20-4817-83f7-eab458349c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{1d1235ef-945f-40b5-87ab-482c6285e1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\Header Files">
+      <UniqueIdentifier>{63f257f7-2a03-4e05-bf20-43facffaba29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\Source Files">
+      <UniqueIdentifier>{d40e815e-b4d8-4a98-b806-a0e0a180bab8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\detour.cpp">
+      <Filter>detours\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\detour_exception.cpp">
+      <Filter>detours\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\detour_exception_hardwarebreakpoint.cpp">
+      <Filter>detours\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detours_game\detour_cl_create_new_commands.cpp">
+      <Filter>detours_game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hack_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="features\feature.cpp">
+      <Filter>features\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="features\feature_aimbot.cpp">
+      <Filter>features\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detours_game\detour_cg_draw_active_frame.cpp">
+      <Filter>detours_game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="features\feature_esp.cpp">
+      <Filter>features\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detours.h">
+      <Filter>detours\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detour.h">
+      <Filter>detours\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detour_exception.h">
+      <Filter>detours\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detour_exception_hardwarebreakpoint.h">
+      <Filter>detours\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours_game\detours_game.h">
+      <Filter>detours_game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours_game\detour_cl_create_new_commands.h">
+      <Filter>detours_game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="features\feature.h">
+      <Filter>features\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hack_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="features\feature_aimbot.h">
+      <Filter>features\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="features\features.h">
+      <Filter>features\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours_game\detour_cg_draw_active_frame.h">
+      <Filter>detours_game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="features\feature_esp.h">
+      <Filter>features\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
